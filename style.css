@@ -242,6 +242,17 @@ body {
 
 }
 
+@media (max-width:487px) {
+    #feature .col {
+        border-radius: 4px;
+        padding: 15px 5px;
+        box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    }
+
+}
+
+
+
 @media (max-width:475px) {
     #header {
         padding: 20px 30px;
@@ -266,16 +277,4 @@ body {
     h3 {
         font-size: 32px;
     }
-
-    #feature {
-        flex-wrap: wrap;
-        height: auto;
-        justify-content: center;
-    }
-
-    #feature .col {
-        flex-basis: calc(50%);
-        margin: 0 10px 20px;
-    }
-
 }
