@@ -66,6 +66,19 @@ button.normal {
     transition: 0.2s;
 }
 
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid white;
+    transition: 0.2s;
+}
+
 /************************* HEADER *************** */
 #header {
     display: flex;
@@ -230,6 +243,7 @@ button.normal {
     /* Adjust this value to position the cart icon properly */
 }
 
+/* ************************* Big Banner ************* */
 #banner {
     display: flex;
     align-items: center;
@@ -260,6 +274,96 @@ button.normal {
 #banner button:hover {
     background-color: #088178;
     color: #fff;
+}
+
+
+/* ************************* Small Banner ************* */
+#sm-banner {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+#sm-banner .banner-box {
+    background-image: url(img/banner/b17.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+    background-image: url(img/banner/b10.jpg);
+}
+
+#sm-banner h4 {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+    background-color: #088178;
+    border: #088178;
+}
+
+/****************Banner Box 3**********************/
+#banner3 {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 80px;
+
+}
+
+#banner3 .banner-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('img/banner/b7.jpg');
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+#banner3 h2 {
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3 {
+    color: #ec544e;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#banner3 .banner-box2 {
+    background-image: url('img/banner/b4.jpg');
+}
+
+#banner3 .banner-box3 {
+    background-image: url('img/banner/b19.jpg');
 }
 
 /*************** RESPONSIVE ******************** */
@@ -361,6 +465,30 @@ button.normal {
         height: 20vh;
     }
 
+    #sm-banner {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #sm-banner .banner-box {
+        height: 30vh;
+    }
+
+    #banner3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        padding: 0 40px;
+    }
+
+    .banner-box {
+        padding: 20px;
+        border: 1px solid #ccc;
+    }
+
+    .banner-box3 {
+        grid-column: span 2;
+    }
 }
 
 
@@ -396,6 +524,15 @@ button.normal {
         height: 40vh;
     }
 
+    #sm-banner .banner-box {
+        height: 40vh;
+        background-position: right 35% top 50%;
+    }
+
+    #banner3 {
+        padding: 0px 40px;
+    }
+
 
 }
 
@@ -427,6 +564,17 @@ button.normal {
     #banner {
         height: 30vh;
     }
+
+    #banner3 {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    #banner3 .banner-box {
+        height: 40vh;
+    }
+
 }
 
 
