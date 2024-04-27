@@ -53,6 +53,19 @@ body {
     width: 100%;
 }
 
+button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: 0.2s;
+}
+
 /************************* HEADER *************** */
 #header {
     display: flex;
@@ -217,7 +230,37 @@ body {
     /* Adjust this value to position the cart icon properly */
 }
 
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('img/banner/b2.jpg');
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
 
+#banner h4 {
+    color: white;
+    font-size: 16px;
+}
+
+#banner h2 {
+    color: white;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner span {
+    color: #ef3636;
+}
+
+#banner button:hover {
+    background-color: #088178;
+    color: #fff;
+}
 
 /*************** RESPONSIVE ******************** */
 #mobile {
@@ -313,7 +356,10 @@ body {
         font-size: 12px;
     }
 
-
+    #banner {
+        padding: 20px;
+        height: 20vh;
+    }
 
 }
 
@@ -346,6 +392,11 @@ body {
         font-size: 10px;
     }
 
+    #banner {
+        height: 40vh;
+    }
+
+
 }
 
 @media (max-width:475px) {
@@ -371,6 +422,10 @@ body {
 
     h3 {
         font-size: 32px;
+    }
+
+    #banner {
+        height: 30vh;
     }
 }
 
@@ -398,6 +453,12 @@ body {
 
     .products {
         grid-template-columns: 1fr;
+    }
+
+    #banner h2 {
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
     }
 
 }
