@@ -366,6 +366,139 @@ button.white {
     background-image: url('img/banner/b19.jpg');
 }
 
+
+/************************* NEWSLETTER********************* */
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url('img/banner/b14.png');
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+
+.input-cta-form {
+    width: 40%;
+}
+
+#newsletter .form {
+    display: flex;
+}
+
+#newsletter h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #818ea0;
+}
+
+#newsletter p span {
+    color: #ffbd27;
+}
+
+#newsletter input {
+    height: 3.125rem;
+    padding: 0 1.2em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+}
+
+#newsletter .ctabtn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/****************FOOTER **************************/
+footer .cols {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+footer .logo {
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #465b52;
+    margin: 10;
+    padding-bottom: 10px;
+}
+
+footer .follow {
+    margin-top: 20px;
+
+}
+
+footer .follow i {
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+
+footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover {
+    color: #088178;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #088178;
+}
+
+
 /*************** RESPONSIVE ******************** */
 #mobile {
     display: none;
@@ -489,6 +622,10 @@ button.white {
     .banner-box3 {
         grid-column: span 2;
     }
+
+    .input-cta-form {
+        width: 70%;
+    }
 }
 
 
@@ -533,6 +670,9 @@ button.white {
         padding: 0px 40px;
     }
 
+    .input-cta-form {
+        width: 70%;
+    }
 
 }
 
@@ -575,6 +715,10 @@ button.white {
         height: 40vh;
     }
 
+    .input-cta-form {
+        width: 100%;
+    }
+
 }
 
 
@@ -609,4 +753,7 @@ button.white {
         text-align: center;
     }
 
+    .input-cta-form {
+        width: 100%;
+    }
 }
