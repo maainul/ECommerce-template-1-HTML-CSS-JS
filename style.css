@@ -514,6 +514,26 @@ footer a:hover {
     display: none;
 }
 
+/************************************* SHOP ******************** */
+.shop-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+    background-size: cover;
+    text-align: center;
+    background-image: url('img/banner/b1.jpg');
+}
+
+.shop-header h2,
+.shop-header p {
+    color: #fff;
+}
+
+.shop-header p {}
+
+
+
 @media (max-width:1280px) {
     #feature {
         flex-wrap: wrap;
