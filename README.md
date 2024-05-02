@@ -1,15 +1,6 @@
-# All-HTML-SITES
-
-https://www.youtube.com/watch?v=MJUssi2c6Ls&ab_channel=Mr.WebDesigner
-
-https://www.udemy.com/course/responsive-website-design-course-with-html-css-js/?referralCode=55D0B9E4C582AE580E11&couponCode=ST6MT42324
-
-https://github.com/tech2etc/Build-and-Deploy-Ecommerce-Website
-
-https://www.youtube.com/watch?v=qKoe69-xy4M&ab_channel=dotWebdesign
-
-https://www.youtube.com/watch?v=GdrbE-s5DgQ&ab_channel=WebDevCreative
-
-https://www.youtube.com/watch?v=-33oY1V14IQ&list=PL0-e1OMq5RP4BIrTQPrqu6Jxsfp94xK8Z&ab_channel=GTCoding
-
-https://www.figma.com/file/mlLJPlQcHOUCMbagcJt2oZ/Responsive-Homepage?type=design&node-id=0-1&mode=design&t=jmsHolwcjwRVGLfZ-0
+![Ecommerce-html-css-javascript](https://github.com/maainul/ECommerce-template-1-HTML-CSS-JS/assets/37740006/452aaacc-bb6d-429a-95ae-0709285e2eeb)
+![Screenshot_26-4-2024_222551_](https://github.com/maainul/ECommerce-template-1-HTML-CSS-JS/assets/37740006/edb2c340-ea7a-451b-856c-c0f9a70ab838)
+![Screenshot_1-5-2024_19496_ecom-html-css-1 netlify app](https://github.com/maainul/ECommerce-template-1-HTML-CSS-JS/assets/37740006/a9c1f762-f478-4cbe-9388-de65084a119a)
+![Screenshot_1-5-2024_194839_ecom-html-css-1 netlify app](https://github.com/maainul/ECommerce-template-1-HTML-CSS-JS/assets/37740006/6ba7410e-28d2-45e8-aa3b-f240631f5656)
+![Screenshot_1-5-2024_194852_ecom-html-css-1 netlify app](https://github.com/maainul/ECommerce-template-1-HTML-CSS-JS/assets/37740006/32d6c977-f1ce-4c9b-a177-104304f8d31d)
+![Screenshot_1-5-2024_194916_ecom-html-css-1 netlify app](https://github.com/maainul/ECommerce-template-1-HTML-CSS-JS/assets/37740006/da6e2442-540e-4b93-9675-80934b88f830)
